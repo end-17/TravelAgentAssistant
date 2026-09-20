@@ -1,0 +1,32 @@
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 依赖目录
+node_modules/
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 构建输出
+dist/
+build/
+
+# 测试覆盖率
+coverage/
+
+# 本地 SQLite 数据库
+data/
